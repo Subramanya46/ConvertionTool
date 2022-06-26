@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace ConvertionUtilitys
 {
-    public class Class1w
+    public class Class1ws
     {
     }
 }
