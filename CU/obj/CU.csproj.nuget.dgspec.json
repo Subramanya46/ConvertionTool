@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\subbu\\Source\\Repos\\ConvertionTool\\ConvertionTool.csproj": {}
+    "C:\\Users\\subbu\\Source\\Repos\\CU\\CU.csproj": {}
   },
   "projects": {
-    "C:\\Users\\subbu\\Source\\Repos\\ConvertionTool\\ConvertionTool.csproj": {
+    "C:\\Users\\subbu\\Source\\Repos\\CU\\CU.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\subbu\\Source\\Repos\\ConvertionTool\\ConvertionTool.csproj",
-        "projectName": "ConvertionTool",
-        "projectPath": "C:\\Users\\subbu\\Source\\Repos\\ConvertionTool\\ConvertionTool.csproj",
+        "projectUniqueName": "C:\\Users\\subbu\\Source\\Repos\\CU\\CU.csproj",
+        "projectName": "CU",
+        "projectPath": "C:\\Users\\subbu\\Source\\Repos\\CU\\CU.csproj",
         "packagesPath": "C:\\Users\\subbu\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\subbu\\Source\\Repos\\ConvertionTool\\obj\\",
+        "outputPath": "C:\\Users\\subbu\\Source\\Repos\\CU\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
