@@ -1,0 +1,12 @@
+C:\Users\subbu\Source\Repos\ConvertionTool\bin\Debug\net6.0\ConvertionTool.deps.json
+C:\Users\subbu\Source\Repos\ConvertionTool\bin\Debug\net6.0\ConvertionTool.dll
+C:\Users\subbu\Source\Repos\ConvertionTool\bin\Debug\net6.0\ConvertionTool.pdb
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.csproj.AssemblyReference.cache
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.AssemblyInfoInputs.cache
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.AssemblyInfo.cs
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.csproj.CoreCompileInputs.cache
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.dll
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\refint\ConvertionTool.dll
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ConvertionTool.pdb
+C:\Users\subbu\Source\Repos\ConvertionTool\obj\Debug\net6.0\ref\ConvertionTool.dll
