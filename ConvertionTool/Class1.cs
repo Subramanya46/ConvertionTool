@@ -1,6 +1,6 @@
 ﻿namespace ConvertionTool
 {
-    public class Class1
+    public class ConvertionTool
     {
 
     }
