@@ -1,6 +1,6 @@
 ﻿namespace CU
 {
-    public class Class1
+    public class ConvertionTool
     {
 
     }
