@@ -1,0 +1,83 @@
+﻿@model PainGuest.Models.MonthlyPayments
+
+@{
+    ViewBag.Title = "Details";
+}
+
+
+<div>
+    <h4>MonthlyPayments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Payment_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Payment_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentMethodId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethodId)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.PaymentMethodName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethodName)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentReferenceNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentReferenceNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Remarks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+
+    </dl>
+</div>
+
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+    @Html.ActionLink("Back to List", "Index")|
+   
+</p>

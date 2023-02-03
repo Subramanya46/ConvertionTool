@@ -1,0 +1,77 @@
+﻿@model IEnumerable<PainGuest.Models.MonthlyPaymentsViewModel>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Amount)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Payment_date)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.PaymentMethodId)
+            </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentMethodName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.PaymentReferenceNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </th>
+        @*<th>
+                @Html.DisplayNameFor(model => model.DateCreated)
+            </th>*@
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Amount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Payment_date)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.PaymentMethodId)
+                </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentMethodName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PaymentReferenceNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Remarks)
+            </td>
+            @*<td>
+                    @Html.DisplayFor(modelItem => item.DateCreated)
+                </td>*@
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+            @Html.ActionLink("Details", "Details", new { id = item.id }) |
+            @Html.ActionLink("Print", "PrintRecipt", new { id = item.id }) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.id })
+        </td>
+        </tr>
+    }
+
+</table>

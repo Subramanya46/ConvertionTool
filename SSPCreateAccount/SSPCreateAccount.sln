@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SSPCreateAccount", "..\..\..\OneDrive\Desktop\SSP\SSPCreateAccount\", "{8DC4F1D2-8A0E-4E87-B3E2-EC7370BF87CA}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.6"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_54998"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\OneDrive\Desktop\SSP\SSPCreateAccount\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54998\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_54998"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\OneDrive\Desktop\SSP\SSPCreateAccount\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_54998\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "54998"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DC4F1D2-8A0E-4E87-B3E2-EC7370BF87CA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DC4F1D2-8A0E-4E87-B3E2-EC7370BF87CA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0E6A1BCB-2C2D-4A09-BAF8-F0163A6F7170}
+	EndGlobalSection
+EndGlobal

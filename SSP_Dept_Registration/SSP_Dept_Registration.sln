@@ -1,0 +1,41 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32616.157
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "SSP_Dept_Registration", "..\..\..\OneDrive\Desktop\1\SSP_Dept_Registration\SSP_Dept_Registration\", "{46F6EF32-97FA-4AA6-B50B-B1141A125C7B}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_61673"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\..\OneDrive\Desktop\1\SSP_Dept_Registration\SSP_Dept_Registration\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61673\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_61673"
+		Release.AspNetCompiler.PhysicalPath = "..\..\..\OneDrive\Desktop\1\SSP_Dept_Registration\SSP_Dept_Registration\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_61673\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "61673"
+		SlnRelativePath = "..\..\..\OneDrive\Desktop\1\SSP_Dept_Registration\SSP_Dept_Registration\"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{46F6EF32-97FA-4AA6-B50B-B1141A125C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46F6EF32-97FA-4AA6-B50B-B1141A125C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D44ABDCB-0D05-4621-9DD9-BE489D9B0F3E}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,192 @@
+﻿@model PainGuest.Models.GuestDetail
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>GuestDetail</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestGenderID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestGenderID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestMobileNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestMobileNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestFathersName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestFathersName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestDateOfBirth)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestDateOfBirth)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestAge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestAge)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestPermanentAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestPermanentAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestTemporaryAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestTemporaryAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestMailId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestMailId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EducationalQualification)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EducationalQualification)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateOfAdmission)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateOfAdmission)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmergencyContactNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmergencyContactNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EmergencyContactNumberRelationship)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EmergencyContactNumberRelationship)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestOfficeAddress)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestOfficeAddress)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Gst_OfficeTelephoneNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Gst_OfficeTelephoneNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MonthlyRent)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MonthlyRent)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.AdvanceAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.AdvanceAmount)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.DepositAmount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DepositAmount)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoomType)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.RoomNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.RoomNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.BedNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.BedNumber)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>

@@ -1,0 +1,33 @@
+﻿@model PainGuest.Models.AdvanceReciptView
+<div class="container">
+    <div class="row">
+        <div>
+            <div class="h3"> Adnvace Amount Reciept</div>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>@Html.DisplayNameFor(model => model.GuestName)</th>
+                        <th>@Html.DisplayNameFor(model => model.AdvanceAmount)</th>
+                        <th> Date </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>@Html.DisplayFor(model => model.GuestName)</td>
+                        <td>@Html.DisplayFor(model => model.AdvanceAmount)</td>
+                        <td> Date </td>
+                        @*<td>
+                                <input type="button" value="Go Somewhere Else" onclick="location.href='<%: Url.Action(" PrintSavePDF", "GuestDetails" , new { id=item.id }) %>'" />
+                            </td>*@
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+
+@*<p>
+        @Html.ActionLink("Edit", "Edit", new { id = Model.id }) |
+        @Html.ActionLink("Back to List", "Index")
+    </p>*@
+

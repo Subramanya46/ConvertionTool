@@ -1,0 +1,156 @@
+﻿@*@model IEnumerable<PainGuest.Models.GuestDetail>*@
+@model IEnumerable<PainGuest.Models.GuestDetailsView>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestGenderName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestMobileNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestFathersName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestDateOfBirth)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestAge)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestPermanentAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestTemporaryAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestMailId)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EducationalQualification)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DateOfAdmission)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmergencyContactNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EmergencyContactNumberRelationship)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.GuestOfficeAddress)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Gst_OfficeTelephoneNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.MonthlyRent)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.AdvanceAmount)
+        </th>
+        @*<th>
+            @Html.DisplayNameFor(model => model.DepositAmount)
+        </th>*@
+        <th>
+            @Html.DisplayNameFor(model => model.RoomTypeName)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.RoomNumber)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.BedNumber)
+        </th>
+        <th></th>
+    </tr>
+
+    @foreach (var item in Model)
+    {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestGenderName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestMobileNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestFathersName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestDateOfBirth)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestAge)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestPermanentAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestTemporaryAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestMailId)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EducationalQualification)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateOfAdmission)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmergencyContactNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmergencyContactNumberRelationship)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.GuestOfficeAddress)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Gst_OfficeTelephoneNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.MonthlyRent)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AdvanceAmount)
+            </td>
+            @*<td>
+                @Html.DisplayFor(modelItem => item.DepositAmount)
+            </td>*@
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomTypeName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.RoomNumber)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.BedNumber)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id = item.id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.id }) |
+                @Html.ActionLink("Print Advance Reciept", "PrintAdvanceRecept", new { id = item.id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.id })
+            </td>
+        </tr>
+    }
+
+</table>

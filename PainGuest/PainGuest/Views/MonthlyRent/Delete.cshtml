@@ -1,0 +1,88 @@
+﻿@model PainGuest.Models.MonthlyPayments
+
+@{
+    ViewBag.Title = "Delete";
+}
+
+<h2>Delete</h2>
+
+<h3>Are you sure you want to delete this?</h3>
+<div>
+    <h4>MonthlyPayments</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.GuestNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.GuestNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Amount)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Amount)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Payment_date)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Payment_date)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentMethodId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethodId)
+        </dd>
+
+        @*<dt>
+            @Html.DisplayNameFor(model => model.PaymentMethodName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentMethodName)
+        </dd>*@
+
+        <dt>
+            @Html.DisplayNameFor(model => model.PaymentReferenceNumber)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.PaymentReferenceNumber)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Remarks)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Remarks)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DateCreated)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DateCreated)
+        </dd>
+
+    </dl>
+
+    @using (Html.BeginForm()) {
+        @Html.AntiForgeryToken()
+
+        <div class="form-actions no-color">
+            <input type="submit" value="Delete" class="btn btn-default" /> |
+            @Html.ActionLink("Back to List", "Index")
+        </div>
+    }
+</div>
